@@ -97,7 +97,6 @@ extension Attribute.Name {
   public static let hxValidate = "hx-validate"
 }
 
-
 // TODO: hx-o
 // handle events with inline scripts on elements
 // hx-on*

@@ -1,5 +1,5 @@
-import Htmx
 import HTTPTypes
+import Htmx
 
 // Request or Response Headers
 extension HTTPField.Name {
@@ -49,4 +49,3 @@ extension HTTPField.Name {
   /// Response: allows you to trigger client-side events after the swap step
   public static var hxTriggerAfterSwap: Self { .init("HX-Trigger-After-Swap")! }
 }
-
