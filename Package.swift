@@ -10,7 +10,9 @@ let package = Package(
     .tvOS(.v13),
   ],
   products: [
-    .library(name: "Htmx", targets: ["Htmx"])
+    .library(name: "Htmx", targets: ["Htmx"]),
+    .library(name: "HTTPTypesHtmx", targets: ["HTTPTypesHtmx"]),
+    .library(name: "HtmlHtmx", targets: ["HtmlHtmx"]),
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-http-types.git", from: "1.0.0"),
