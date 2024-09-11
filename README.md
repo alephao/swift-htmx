@@ -1,17 +1,17 @@
 # swift-htmx
 
-typed htmx values for swift on server
+Typed [htmx](https://htmx.org) values for swift on server
 
 ## Libraries
 
-* Htmx: attribute names typed values 
+* Htmx: Type-safe HTMX attribute names
 * HTTPTypesHtmx: support for [swift-http-types](https://github.com/apple/swift-http-types)
-* HtmlHtmx: support for [swift-html](https://github.com/alephao/swift-html) (using alephao/swift-html instead of pointfree/swift-html)
+* HtmlHtmx: support for [swift-html](https://github.com/pointfreeco/swift-html)
 
 ## Installation
 
 ```
 dependencies: [
-  .package(url: "https://github.com/alephao/swift-htmx", from: "0.1.0")
+  .package(url: "https://github.com/alephao/swift-htmx", from: "0.3.0")
 ]
 ```
