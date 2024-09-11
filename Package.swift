@@ -16,7 +16,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-http-types.git", from: "1.0.0"),
-    .package(url: "https://github.com/alephao/swift-html.git", from: "0.5.0"),
+    .package(url: "https://github.com/pointfreeco/swift-html.git", from: "0.4.1"),
   ],
   targets: [
     .target(name: "Htmx"),

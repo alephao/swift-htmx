@@ -1,13 +1,13 @@
 {
-  "originHash" : "09c0071e6b0075791c684bac054e97d87ce1dcec2531ffb2223b7ab699bf6f0c",
+  "originHash" : "95b47a55b482f21cc24868bc2f9967cce90b51c990617285ab2130bea33fc2f7",
   "pins" : [
     {
       "identity" : "swift-html",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alephao/swift-html.git",
+      "location" : "https://github.com/pointfreeco/swift-html.git",
       "state" : {
         "revision" : "be9d301d0d2ed432a57d10c5ab7a1183bd1afce8",
-        "version" : "0.5.0"
+        "version" : "0.4.1"
       }
     },
     {
@@ -24,17 +24,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-snapshot-testing",
       "state" : {
-        "revision" : "625ccca8570773dd84a34ee51a81aa2bc5a4f97a",
-        "version" : "1.16.0"
+        "revision" : "6d932a79e7173b275b96c600c86c603cf84f153c",
+        "version" : "1.17.4"
       }
     },
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax",
+      "location" : "https://github.com/swiftlang/swift-syntax",
       "state" : {
-        "revision" : "fa8f95c2d536d6620cc2f504ebe8a6167c9fc2dd",
-        "version" : "510.0.1"
+        "revision" : "515f79b522918f83483068d99c68daeb5116342d",
+        "version" : "600.0.0-prerelease-2024-09-04"
       }
     }
   ],
