@@ -10,7 +10,7 @@ Typed [htmx](https://htmx.org) values for swift on server
 
 ### HtmlHtmx
 
-If you're using [pointfreeco/swift-html], HtmlHtmx will add htmx extentions to Attributes.
+If you're using [pointfreeco/swift-html](https://github.com/pointfreeco/swift-html), HtmlHtmx will add htmx extentions to Attributes.
 
 ```swift
 import Htmx
